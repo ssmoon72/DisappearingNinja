@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Disappearing Ninja </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("img").click(function(){
+          $(this).hide()
+
+          });
+        $("#restore").click(function(){
+          $(".tarnation").show();
+        })
+      })
+    </script>
+  </head>
+  <body>
+    <img class="tarnation" src="images/tarnation.jpg" alt="wot in tarnation">
+    <img class="tarnation" src="images/tarnation.jpg" alt="wot in tarnation">
+    <img class="tarnation" src="images/tarnation.jpg" alt="wot in tarnation">
+    <img class="tarnation" src="images/tarnation.jpg" alt="wot in tarnation">
+    <img class="tarnation" src="images/tarnation.jpg" alt="wot in tarnation">
+    <img class="tarnation" src="images/tarnation.jpg" alt="wot in tarnation">
+    <img class="tarnation" src="images/tarnation.jpg" alt="wot in tarnation">
+    <img class="tarnation" src="images/tarnation.jpg" alt="wot in tarnation">
+    <button id="restore"> Restore in Tarnation </button>
+  </body>
+</html>
